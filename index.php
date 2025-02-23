@@ -51,8 +51,8 @@
                                         <p class="mb-5 fs-5">Creamos sitios web corporativos, tiendas en línea (eCommerce) y sistemas de reservas personalizados para impulsar tu negocio.
                                         </p>
                                         <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
-                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="bi bi-hand-index-fill me-2"></i> Saber más </a>
-                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#"><i class="bi bi-envelope-fill me-2"></i> Contactar</a>
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="https://wa.link/da799r"><i class="bi bi-hand-index-fill me-2"></i> Saber más </a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#contact"><i class="bi bi-envelope-fill me-2"></i> Contactar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -72,8 +72,8 @@
                                         <p class="mb-5 fs-5">Impulsa tu marca con estrategias de redes sociales, publicidad online, SEO y más...
                                         </p>
                                         <div class="d-flex justify-content-center flex-shrink-0 mb-4">
-                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="bi bi-hand-index-fill me-2"></i> Saber más</a>
-                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#"><i class="bi bi-envelope-fill me-2"></i> Contactar</a>
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="https://wa.link/da799r"><i class="bi bi-hand-index-fill me-2"></i> Saber más</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#contact"><i class="bi bi-envelope-fill me-2"></i> Contactar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -225,7 +225,7 @@
                             <h4>Desarrollo Web a Medida</h4>
                             <p class="mb-4 custom-description2">Creamos sitios web personalizados que se alinean con las necesidades de tu negocio, garantizando una experiencia única y funcional para tus usuarios.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4">Leer más</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
@@ -236,7 +236,7 @@
                             <h4>Diseño Responsivo y Funcional</h4>
                             <p class="mb-4 custom-description2">Nos aseguramos de que tu página se vea y funcione perfectamente en cualquier dispositivo, brindando una experiencia fluida tanto en computadoras como en móviles.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4">Leer más</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
@@ -247,7 +247,7 @@
                             <h4>Optimización SEO Avanzada</h4>
                             <p class="mb-4 custom-description2">Mejoramos tu posicionamiento en los motores de búsqueda para que tu sitio web sea fácilmente encontrado por los usuarios y aumente su visibilidad online.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4">Leer más</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
@@ -258,7 +258,7 @@
                             <h4>Estrategias de Marketing Digital</h4>
                             <p class="mb-4 custom-description2">Desarrollamos campañas de marketing digital efectivas para atraer clientes potenciales, aumentar tu presencia online y promover tu marca en plataformas clave.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4">Leer más</a>
                         </div>
                     </div>
                 </div>

@@ -13,10 +13,10 @@
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item">
                     <h4 class="text-white mb-4">Enlaces</h4>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Inicio</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Sobre nosotros</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Servicios</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Contacto</a>
+                    <a href="#home"><i class="fas fa-angle-right me-2"></i> Inicio</a>
+                    <a href="#about"><i class="fas fa-angle-right me-2"></i> Sobre nosotros</a>
+                    <a href="#services"><i class="fas fa-angle-right me-2"></i> Servicios</a>
+                    <a href="#contact"><i class="fas fa-angle-right me-2"></i> Contacto</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
