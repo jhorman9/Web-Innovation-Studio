@@ -8,14 +8,11 @@
         <meta content="Marketing, Publicidad, Agencia de desarrollo, Creación de páginas web" name="keywords">
         <meta content="Creación de páginas web, desarrollo de páginas web y aplicaciones. Agencia de marketing digital" name="description">
         <?php include('includes/meta.php') ?>
-    </head>
-
-    <body>
 
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+                <span class="sr-only">Cargando...</span>
             </div>
         </div>
         <!-- Spinner End -->
@@ -26,7 +23,7 @@
                 <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                     <div class="d-flex flex-wrap">
                         <a href="#" class="text-muted small me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Panamá, Ciudad de Panamá</a>
-                        <a href="tel:+01234567890" class="text-muted small me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+507 1234-56789</a>
+                        <a href="tel:+50761320449" class="text-muted small me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+507 6132-0449</a>
                         <a href="mailto:sales@webinnovatorstudio.com" class="text-muted small me-0"><i class="fas fa-envelope text-primary me-2"></i>sales@webinnovatorstudio.com</a>
                     </div>
                 </div>
@@ -49,22 +46,13 @@
                                 <div class="col-lg-0 col-xl-5"></div>
                                 <div class="col-xl-7 animated fadeInLeft">
                                     <div class="text-sm-center text-md-end">
-                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Stocker</h4>
-                                        <h1 class="display-4 text-uppercase text-white mb-4">Invest your money with higher return</h1>
-                                        <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Bienvenidos a Web Innovation Studio</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">Diseño y Desarrollo Web a la Medida</h1>
+                                        <p class="mb-5 fs-5">Creamos sitios web corporativos, tiendas en línea (eCommerce) y sistemas de reservas personalizados para impulsar tu negocio.
                                         </p>
                                         <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
-                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
-                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-center justify-content-md-end">
-                                            <h2 class="text-white me-2">Follow Us:</h2>
-                                            <div class="d-flex justify-content-end ms-2">
-                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                            </div>
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Saber más </a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Contactar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -79,22 +67,13 @@
                             <div class="row g-5">
                                 <div class="col-12 animated fadeInUp">
                                     <div class="text-center">
-                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Stocker</h4>
-                                        <h1 class="display-4 text-uppercase text-white mb-4">Invest your money with higher return</h1>
-                                        <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Bienvenidos a Web Innovation Studio</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">Estrategias de Marketing Digital para Impulsar tu Negocio</h1>
+                                        <p class="mb-5 fs-5">Impulsa tu marca con estrategias de redes sociales, publicidad online, SEO y más...
                                         </p>
                                         <div class="d-flex justify-content-center flex-shrink-0 mb-4">
-                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
-                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-center">
-                                            <h2 class="text-white me-2">Follow Us:</h2>
-                                            <div class="d-flex justify-content-end ms-2">
-                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
-                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                            </div>
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Saber más</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Contactar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -114,57 +93,20 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
                         <div>
-                            <h4 class="text-primary">About Us</h4>
-                            <h1 class="display-5 mb-4">Meet our company unless miss the opportunity</h1>
-                            <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit temporibus repudiandae ipsa, eaque perspiciatis cumque incidunt tenetur sequi reiciendis.
+                            <h4 class="text-primary">Sobre nosotros</h4>
+                            <h1 class="display-5 mb-4">Conoce nuestra empresa y aprovecha cada oportunidad de crecimiento</h1>
+                            <p class="mb-4">Somos una agencia de desarrollo y marketing digital creada en Panamá, especializada en la creación de eCommerce, páginas web corporativas y sistemas de reservas, adaptados a las necesidades de cada cliente. Combinamos innovación y tecnología para ofrecer soluciones digitales estratégicas que potencian negocios y mejoran su presencia online.
                             </p>
                             <div class="row g-4">
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <div class="d-flex">
-                                        <div><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
-                                        <div class="ms-4">
-                                            <h4>Business Consuluting</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <div class="d-flex">
-                                        <div><i class="bi bi-bookmark-heart-fill fa-3x text-primary"></i></div>
-                                        <div class="ms-4">
-                                            <h4>Year Of Expertise</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="col-sm-6">
-                                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Discover Now</a>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="d-flex">
-                                        <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
-                                        <div>
-                                            <h4>Call Us</h4>
-                                            <p class="mb-0 fs-5" style="letter-spacing: 1px;">+01234567890</p>
-                                        </div>
-                                    </div>
+                                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Saber más</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="bg-primary rounded position-relative overflow-hidden">
+                        <div class="bg-primary rounded position-relative overflow-hidden px-2 py-3">
                             <img src="img/about-2.png" class="img-fluid rounded w-100" alt="">
-                            
-                            <div class="" style="position: absolute; top: -15px; right: -15px;">
-                                <img src="img/about-3.png" class="img-fluid" style="width: 150px; height: 150px; opacity: 0.7;" alt="">
-                            </div>
-                            <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
-                                <img src="img/about-4.png" class="img-fluid" style="width: 100px; height: 150px; opacity: 0.9;" alt="">
-                            </div>
-                            <div class="rounded-bottom">
-                                <img src="img/about-5.jpg" class="img-fluid rounded-bottom w-100" alt="">
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -176,87 +118,87 @@
         <div class="container-fluid service pb-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Services</h4>
-                    <h1 class="display-5 mb-4">We Services provided best offer</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <h4 class="text-primary">Nuestros servicios</h4>
+                    <h1 class="display-5 mb-4">Servicios de Calidad a tu Medida</h1>
+                    <p class="mb-0">Ofrecemos soluciones personalizadas en desarrollo web y marketing digital, diseñadas para optimizar tu presencia online y acelerar el crecimiento de tu negocio de manera efectiva.
                     </p>
                 </div>
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/Desarrollo Web Personalizado.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4"> Strategy Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                <a href="#" class="h4 d-inline-block mb-4"> Desarrollo Web Personalizado</a>
+                                <p class="mb-4 custom-description">Creamos sitios web personalizados que se adaptan a las necesidades de tu negocio, brindando una experiencia única y funcionalidad avanzada.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/CMS Facil de Usar.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Financial Advisory</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                <a href="#" class="h4 d-inline-block mb-4">CMS Fácil de Usar</a>
+                                <p class="mb-4 custom-description">Ofrecemos soluciones web a medida con un sistema de gestión de contenido intuitivo, para que puedas administrar tu sitio de manera sencilla y sin complicaciones.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/Ecommerce a Medida.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Managements</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                <a href="#" class="h4 d-inline-block mb-4">Ecommerce a Medida</a>
+                                <p class="mb-4 custom-description">Desarrollamos tiendas online completas y seguras, optimizadas para ofrecer una experiencia de compra excepcional y aumentar tus ventas.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/Marketing Digital.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Supply Optimization</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                <a href="#" class="h4 d-inline-block mb-4">Marketing Digital</a>
+                                <p class="mb-4 custom-description">Creamos estrategias de marketing digital personalizadas para atraer más clientes, aumentar tu visibilidad y mejorar tu rendimiento en línea.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-5.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/Publicidad Online.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Hr Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                <a href="#" class="h4 d-inline-block mb-4">Publicidad Online</a>
+                                <p class="mb-4 custom-description">Diseñamos campañas publicitarias en plataformas digitales para alcanzar a tu audiencia objetivo y maximizar tus resultados comerciales.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/Optimización SEO.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Marketing Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                <a href="#" class="h4 d-inline-block mb-4">Optimización SEO</a>
+                                <p class="mb-4 custom-description">Mejoramos el posicionamiento de tu sitio web en los motores de búsqueda para aumentar su visibilidad y atraer tráfico de calidad.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -269,9 +211,9 @@
         <div class="container-fluid feature pb-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Features</h4>
-                    <h1 class="display-5 mb-4">Connecting businesses, ideas, and people for greater impact.</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    <h4 class="text-primary">Nuestras caracteristicas</h4>
+                    <h1 class="display-5 mb-4">Impulsando tu negocio con soluciones digitales personalizadas.</h1>
+                    <p class="mb-0">Ofrecemos un enfoque único en el desarrollo web, marketing digital y optimización SEO. Cada servicio está diseñado para maximizar el potencial de tu negocio en el mundo digital, adaptándonos a tus necesidades específicas y asegurando un impacto significativo en tu crecimiento.
                     </p>
                 </div>
                 <div class="row g-4">
@@ -280,10 +222,10 @@
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-chart-line fa-4x text-primary"></i>
                             </div>
-                            <h4>Global Management</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            <h4>Desarrollo Web a Medida</h4>
+                            <p class="mb-4 custom-description2">Creamos sitios web personalizados que se alinean con las necesidades de tu negocio, garantizando una experiencia única y funcional para tus usuarios.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
@@ -291,10 +233,10 @@
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-university fa-4x text-primary"></i>
                             </div>
-                            <h4>Corporate Banking</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            <h4>Diseño Responsivo y Funcional</h4>
+                            <p class="mb-4 custom-description2">Nos aseguramos de que tu página se vea y funcione perfectamente en cualquier dispositivo, brindando una experiencia fluida tanto en computadoras como en móviles.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
@@ -302,10 +244,10 @@
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-file-alt fa-4x text-primary"></i>
                             </div>
-                            <h4>Asset Management</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            <h4>Optimización SEO Avanzada</h4>
+                            <p class="mb-4 custom-description2">Mejoramos tu posicionamiento en los motores de búsqueda para que tu sitio web sea fácilmente encontrado por los usuarios y aumente su visibilidad online.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
@@ -313,10 +255,10 @@
                             <div class="feature-icon p-4 mb-4">
                                 <i class="fas fa-hand-holding-usd fa-4x text-primary"></i>
                             </div>
-                            <h4>Investment Bank</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            <h4>Estrategias de Marketing Digital</h4>
+                            <p class="mb-4 custom-description2">Desarrollamos campañas de marketing digital efectivas para atraer clientes potenciales, aumentar tu presencia online y promover tu marca en plataformas clave.
                             </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
                         </div>
                     </div>
                 </div>
@@ -796,6 +738,5 @@
         <!-- Testimonial End -->
 
         <?php include('includes/footer.php') ?>
-    </body>
 
 </html>

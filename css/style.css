@@ -68,11 +68,11 @@
 
 .btn.btn-primary {
     color: var(--bs-white);
-    border: none;
+    border: 2px solid var(--bs-primary);
 }
 
 .btn.btn-primary:hover {
-    background: var(--bs-dark);
+    background: transparent;
     color: var(--bs-primary);
 }
 
@@ -435,6 +435,15 @@
 .service .service-item:hover .service-img img {
     transform: scale(1.2);
 }
+
+.service .custom-description{
+    transition: 0.4sease;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
 /*** Service End ***/
 
 
@@ -455,6 +464,15 @@
     background: var(--bs-white);
     border-radius: 10px;
     display: inline-block;
+}
+
+.feature .custom-description2{
+    transition: 0.4sease;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 /*** Features End ***/
 
@@ -911,3 +929,6 @@
 /*** copyright end ***/
 
 
+.btn-check:checked+.btn-primary:focus, .btn-check:active+.btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show>.btn-primary.dropdown-toggle:focus{
+    box-shadow: none !important;
+}
