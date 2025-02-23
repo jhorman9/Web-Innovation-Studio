@@ -4,33 +4,19 @@
         <div class="row g-5">
             <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="footer-item">
-                    <a href="index.html" class="p-0">
-                        <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i>Stocker</h4>
+                    <a href="index.php" class="p-0">
+                        <img src="./img/wis.png" alt="Logo de Web Innovator Studio" width="200px" height="200px">
                         <!-- <img src="img/logo.png" alt="Logo"> -->
                     </a>
-                    <p class="mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-6 col-xl-2">
-                <div class="footer-item">
-                    <h4 class="text-white mb-4">Quick Links</h4>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item">
-                    <h4 class="text-white mb-4">Support</h4>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Disclaimer</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Support</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
-                    <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
+                    <h4 class="text-white mb-4">Enlaces</h4>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Inicio</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Sobre nosotros</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Servicios</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Contacto</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
@@ -38,19 +24,19 @@
                     <h4 class="text-white mb-4">Contact Info</h4>
                     <div class="d-flex align-items-center">
                         <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                        <p class="text-white mb-0">123 Street New York.USA</p>
+                        <p class="text-white mb-0">Panamá, Ciudad de Panamá</p>
                     </div>
                     <div class="d-flex align-items-center">
                         <i class="fas fa-envelope text-primary me-3"></i>
-                        <p class="text-white mb-0">info@example.com</p>
+                        <p class="text-white mb-0"><a href="mailto:sales@webinnovatorstudio.com">sales@webinnovatorstudio.com</a></p>
                     </div>
                     <div class="d-flex align-items-center">
-                        <i class="fa fa-phone-alt text-primary me-3"></i>
-                        <p class="text-white mb-0">(+012) 3456 7890</p>
+                        <i class="fab fa-whatsapp text-primary me-3"></i>
+                        <p class="text-white mb-0"><a href="https://wa.link/da799r">(+507) 6132-0449</a></p>
                     </div>
                     <div class="d-flex align-items-center mb-4">
                         <i class="fab fa-firefox-browser text-primary me-3"></i>
-                        <p class="text-white mb-0">Yoursite@ex.com</p>
+                        <p class="text-white mb-0"><a href="https://webinnovatorstudio.com">webinnovatorstudio.com</a></p>
                     </div>
                     <div class="d-flex">
                         <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
@@ -70,7 +56,7 @@
     <div class="container">
         <div class="row g-4 align-items-center">
             <div class="col-md-6 text-center text-md-start mb-md-0">
-                <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Web Innovator Studio</a>, Todos los derechos reservados.</span>
+                <span class="text-body"><a href="#" class="border-bottom text-dark"><i class="fas fa-copyright text-dark me-2"></i>Web Innovator Studio</a>, Todos los derechos reservados.</span>
             </div>
             <div class="col-md-6 text-center text-md-end text-body">
         </div>
@@ -92,7 +78,7 @@
 <script src="lib/counterup/counterup.min.js"></script>
 <script src="lib/lightbox/js/lightbox.min.js"></script>
 <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
+<script src="./js/script.js"></script>
 
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
