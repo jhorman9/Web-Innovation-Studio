@@ -15,6 +15,11 @@
 }
 /*** Spinner End ***/
 
+.form-control:focus {
+    border-color: var(--bs-primary) !important;
+    box-shadow: none;
+}
+
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -148,7 +153,7 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 100px;
+    max-height: 100px !important;
     transition: .5s;
     margin-top: 14px !important;
 }
@@ -208,7 +213,7 @@
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 45px;
+        max-height: 90px;
     }
 }
 
@@ -938,6 +943,21 @@
 }
 
 .bi-hand-index-fill::before {
-    content: "\f400";
-    transform: rotate(90deg);
+    content: "\f400" !important;
+    transform: rotate(90deg) !important;
+}
+
+div#form-row {
+    background: var(--bs-primary);
+    border-radius: 14px;
+}
+
+form button {
+    border: 1px solid white !important;
+    color: white;
+}
+
+form button:hover {
+    background: white !important;
+    color: white !important; 
 }

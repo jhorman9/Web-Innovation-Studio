@@ -79,6 +79,44 @@
 <script src="lib/lightbox/js/lightbox.min.js"></script>
 <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 <script src="./js/script.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<script>
+        // Read more Toggle
+        const read = document.querySelectorAll('.service-item a');
+        const service = document.querySelectorAll('.service-item .custom-description');
+        const read2 = document.querySelectorAll('.feature-item a');
+        const service2 = document.querySelectorAll('.feature-item .custom-description2');
+    
+        function LineClamp(readMore, serviceText){
+            readMore.forEach((read, index) => {
+                read.addEventListener('click', () => {
+                    serviceText[index].classList.toggle('show-more');
+                    if (serviceText[index].classList.contains('show-more')) {
+                        read.innerHTML = 'Leer menos';
+                    } else {
+                        read.innerHTML = 'Leer más';
+                    }
+                });
+            });
+        }
+    
+        LineClamp(read, service);
+        LineClamp(read2, service2);
+
+        function captchaVerificado() {
+		    document.getElementById("btnEnviar").disabled = false;
+	    }
+
+	document.getElementById("contactForm").addEventListener("submit", function(event) {
+		const captchaResponse = grecaptcha.getResponse();
+		if (captchaResponse.length === 0) {
+			console.log(captchaResponse);
+			alert("Por favor, verifica que no eres un robot.");
+			event.preventDefault();
+		}
+	});
+</script>
 
 <!-- Template Javascript -->
 <script src="js/main.js"></script>

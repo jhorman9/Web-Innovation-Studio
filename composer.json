@@ -1,0 +1,6 @@
+{
+    "name": "u403768061/public_html",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}

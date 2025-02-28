@@ -21,4 +21,26 @@ document.addEventListener("DOMContentLoaded", () => {
     );
 
     sections.forEach((section) => observer.observe(section));
+
+    // Read more Toggle
+        const read = document.querySelectorAll('.service-item a');
+        const service = document.querySelectorAll('.service-item .custom-description');
+        const read2 = document.querySelectorAll('.feature-item a');
+        const service2 = document.querySelectorAll('.feature-item .custom-description2');
+    
+        function LineClamp(readMore, serviceText){
+            readMore.forEach((read, index) => {
+                read.addEventListener('click', () => {
+                    serviceText[index].classList.toggle('show-more');
+                    if (serviceText[index].classList.contains('show-more')) {
+                        read.innerHTML = 'Leer menos';
+                    } else {
+                        read.innerHTML = 'Leer más';
+                    }
+                });
+            });
+        }
+    
+        LineClamp(read, service);
+        LineClamp(read2, service2);
 });

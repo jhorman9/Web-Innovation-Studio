@@ -1,0 +1,23 @@
+# Activar reescritura de URLs
+RewriteEngine On
+
+# Redirigir cualquier acceso a la raíz hacia index.php
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ /index.php [L,R=301]
+
+# Permitir acceso a todos los usuarios para send.php
+<Files "send.php">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Limitar el acceso a bots conocidos (ejemplo: bloquear bots de Google)
+SetEnvIf User-Agent "Googlebot" block_bot
+Deny from env=block_bot
+
+# Bloquear acceso a ciertos directorios
+<Directory "/path/to/directory/">
+    Order Deny,Allow
+    Deny from all
+    Allow from all
+</Directory>

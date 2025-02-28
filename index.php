@@ -9,6 +9,34 @@
         <meta content="Creación de páginas web, desarrollo de páginas web y aplicaciones. Agencia de marketing digital" name="description">
         <?php include('includes/meta.php') ?>
 
+        <style>
+            .service .custom-description.show-more{
+                transition: 0.4sease;
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: unset;
+                line-clamp: unset;
+                -webkit-box-orient: vertical;
+            }
+
+            .feature-item .custom-description2.show-more{
+                transition: 0.4 ease;
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: unset;
+                line-clamp: unset;
+                -webkit-box-orient: vertical;
+            }
+
+            .g-recaptcha {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 30px;
+                width: 100%;
+                overflow: hidden;
+            }
+        </style>
+
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -130,10 +158,10 @@
                                 <img src="img/Desarrollo Web Personalizado.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4"> Desarrollo Web Personalizado</a>
+                                <h4 class="h4 d-inline-block mb-4"> Desarrollo Web Personalizado</h4>
                                 <p class="mb-4 custom-description">Creamos sitios web personalizados que se adaptan a las necesidades de tu negocio, brindando una experiencia única y funcionalidad avanzada.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -143,10 +171,10 @@
                                 <img src="img/CMS Facil de Usar.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">CMS Fácil de Usar</a>
+                                <h4 class="h4 d-inline-block mb-4">CMS Fácil de Usar</h4>
                                 <p class="mb-4 custom-description">Ofrecemos soluciones web a medida con un sistema de gestión de contenido intuitivo, para que puedas administrar tu sitio de manera sencilla y sin complicaciones.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -156,10 +184,10 @@
                                 <img src="img/Ecommerce a Medida.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Ecommerce a Medida</a>
+                                <h4 class="h4 d-inline-block mb-4">Ecommerce a Medida</h4>
                                 <p class="mb-4 custom-description">Desarrollamos tiendas online completas y seguras, optimizadas para ofrecer una experiencia de compra excepcional y aumentar tus ventas.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -169,10 +197,10 @@
                                 <img src="img/Marketing Digital.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Marketing Digital</a>
+                                <h4 class="h4 d-inline-block mb-4">Marketing Digital</h4>
                                 <p class="mb-4 custom-description">Creamos estrategias de marketing digital personalizadas para atraer más clientes, aumentar tu visibilidad y mejorar tu rendimiento en línea.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -182,10 +210,10 @@
                                 <img src="img/Publicidad Online.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Publicidad Online</a>
+                                <h4 class="h4 d-inline-block mb-4">Publicidad Online</h4>
                                 <p class="mb-4 custom-description">Diseñamos campañas publicitarias en plataformas digitales para alcanzar a tu audiencia objetivo y maximizar tus resultados comerciales.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -195,10 +223,10 @@
                                 <img src="img/Optimización SEO.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Optimización SEO</a>
+                                <h4 class="h4 d-inline-block mb-4">Optimización SEO</h4>
                                 <p class="mb-4 custom-description">Mejoramos el posicionamiento de tu sitio web en los motores de búsqueda para aumentar su visibilidad y atraer tráfico de calidad.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Leer más</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -266,6 +294,69 @@
         </div>
         <!-- Features End -->
 
-        <?php include('includes/footer.php') ?>
+        <!-- Contact Start -->
+        <div class="container-fluid contact pb-5" id="contact">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Formulario de contacto</h4>
+                    <h1 class="display-5 mb-4">Construyamos juntos el futuro digital de tu empresa.</h1>
+                    <p class="mb-0">¿Necesitas una solución a medida en desarrollo de software o marketing digital? Estamos aquí para ayudarte. Cuéntanos sobre tu proyecto y trabajemos juntos para impulsar tu crecimiento con tecnología innovadora y estrategias efectivas.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="contact-item p-4">
+                            <div class="contact-icon p-4 mb-4">
+                                <img src="https://webinnovatorstudio.com/img/service.png" alt="Icono de setup-pana" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="contact-item p-4" id="form-row">
+                            <form class="row contact_form" method="post" action="send.php" id="contactForm" novalidate="novalidate">
+                                <span class="h4 text-center text-white">Llena el siguiente formulario</span>
+                                <p class="text-center text-white mb-4">Por favor, complete el siguiente formulario con los detalles de su proyecto. Nuestro equipo especializado en desarrollo de software y marketing digital se pondrá en contacto con usted para ofrecerle soluciones personalizadas que impulsen el crecimiento y la transformación digital de su empresa. 
+                                </p>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="nombre" placeholder="Nombre y Apellido" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" name="correo" placeholder="Correo Electronico" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="subject" name="telefono" placeholder="Teléfono" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="title" name="title" placeholder="Asunto" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-4">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="message" id="message" rows="8" placeholder="Mensaje" required></textarea>
+                                    </div>
+                                </div>
+                                <div style="display:none;">
+                                    <input type="text" name="honeypot" value="">
+                                </div>
+                                <div class="g-recaptcha" data-sitekey="6LfD1uIqAAAAAK3oxYa3A9jH8gI3ViyNlSYudTDG" data-callback="captchaVerificado" hl='es'></div>
 
+                                <div class="col-md-12 text-right mx-auto d-flex justify-content-center">
+                                    <button type="submit" value="submit" class="btn submit_btn text-white border-white border-2" id="btnEnviar" disabled>Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <?php include('includes/footer.php') ?>
 </html>
